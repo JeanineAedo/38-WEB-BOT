@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;    
+}
+
+header{
+    background: url("./Imágenes/fondo\ de\ header.jpeg") no-repeat;
+    background-color: #08241927;
+    background-size: 100%;
+    background-position-y: 55%;
+    background-position-x: 100%;
+    height: 500px;     
+}
+
+.contenedor_padre{
+    height: 500px;
+    background-color: #0e382767;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;   
+}
+
+.travel{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.menu{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+}
+
+
+nav{
+    color: white;
+    font-size: 22px;   
+}
+
+.texto-grande{
+    display: flex;
+    justify-content: center;
+}
+
+.Texto{
+    color: white;
+    width: 600px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrar{
+    height: 50px;
+    width: 180px;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.linea{
+    height: 1px;
+    width: 180px;
+    border: 1px solid rgba(53, 75, 53, 0.144);
+    background-color: rgba(53, 75, 53, 0.747);    
+}
+
+.Places_Favorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+.favoritos{
+    color: gray
+}
+
+
+
+main{
+    height: 2600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    z-index: 1000;  
+}
+
+.circulo1{
+    height: 700px;
+    width: 700px;
+    border: 1px solid rgba(53, 75, 53, 0.747);
+    border-radius: 50%;
+    background-color: rgba(53, 75, 53, 0.747);
+    z-index: -100;
+    position: absolute;
+    left: -180px;
+    margin-top: 100px;
+}
+
+.circulo2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgba(53, 75, 53, 0.747);
+    border-radius: 50%;
+    background-color: rgba(53, 75, 53, 0.747);
+    z-index: -100;
+    position: absolute;
+    right: 80px;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.tarjetas{
+    border: 1px solid rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    width: 400px;
+    font-size: 50px;
+    box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.336);     
+}
+
+img{
+    height: 220px;
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titulo_parrafo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;  
+}
+
+.t3{
+    padding-bottom: 50px;
+}
+
+.Titulo{
+    font-size: 15px;
+}
+
+.Parrafo{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 120px;    
+}
+
+.visitar{
+    height: 50px;
+    width: 150px;
+    background-color: #42AA85;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.agregar{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid #42AA85;
+    border-radius: 8px;
+    color: #42AA85;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.services{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.linea2{
+    height: 1px;
+    width: 110px;
+    border: 1px solid rgba(53, 75, 53, 0.144);
+    background-color: rgba(53, 75, 53, 0.747);
+    margin-left: 20px;
+}
+
+.zona__servicios{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.alojamiento{
+    border: 2px solid white;
+    height: 420px;
+    width: 800px;
+    margin-top: 60px;
+    margin-left: 780px;
+    background-color: white;
+}
+
+.titulo__alojamiento{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.parrafo__alojamiento{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.boton__alojamiento{
+    height: 50px;
+    width: 175px;
+    background-color: white;
+    border: 1px solid #082419;
+    border-radius: 8px;
+    color: #082419;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.hotel{
+    z-index: -100;
+    position: absolute;
+    height: 600px;
+    width: 850px;
+    left: 240px;
+    margin-top: 1000px;
+}
+
+.transporte{
+    border: 2px solid white;
+    height: 420px;
+    width: 800px;
+    margin-top: 60px;
+    margin-left: -540px;
+    background-color: white;
+    margin-top: 280px;
+}
+
+.titulo__transporte{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px 
+}
+
+.parrafo__transporte{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.boton__transporte{
+    height: 50px;
+    width: 175px;
+    background-color: white;
+    border: 1px solid #082419;
+    border-radius: 8px;
+    color: #082419;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.taxi{
+    z-index: -100;
+    position: absolute;
+    height: 600px;
+    width: 850px;
+    left: 965px;
+    margin-top: 1800px;
+}
+
+
+footer{
+    border: 1px solid #082419;
+    background-color: #082419;
+    width: 1fr;
+    height: 200px;
+}
+
+.final{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap:20px;
+    height: 160px;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 195, 195);    
+}
