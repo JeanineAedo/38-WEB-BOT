@@ -12,6 +12,7 @@ h1{
    margin: auto;
    display: grid;
    grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(6, auto);
 }
 
 .caja{
@@ -24,6 +25,7 @@ h1{
 
 .caja1{
     background-color: orange;
+
    grid-column: 1/1;
    grid-row: 1/1;
 }
