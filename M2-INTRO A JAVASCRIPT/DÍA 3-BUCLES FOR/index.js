@@ -22,7 +22,7 @@
 let numeros = [3,7,5]
 
 let total = 0
-for(let i = 0; i < numeros.length; i++) {
+for(i = 0; i < numeros.length; i++) {
     total = total + numeros(i);
 }
 
